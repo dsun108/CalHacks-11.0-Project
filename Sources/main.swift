@@ -1,3 +1,5 @@
+// The Swift Programming Language
+// https://docs.swift.org/swift-book
 func fetchQuote() {
     let urlString: String = "localhost"
     guard let url = URL(string: urlString) else {
@@ -38,3 +40,5 @@ func fetchQuote() {
     task.resume()
 
 }
+print("here\n")
+fetchQuote()
