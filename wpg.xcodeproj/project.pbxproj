@@ -15,6 +15,8 @@
 		ABDEB7D62CC44A8B00B56576 /* wpgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB7D32CC44A8B00B56576 /* wpgUITests.swift */; };
 		ABDEB7D72CC44A8B00B56576 /* wpgUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB7D42CC44A8B00B56576 /* wpgUITestsLaunchTests.swift */; };
 		ABDEB7E22CC4531700B56576 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB7E12CC4531700B56576 /* HomePageView.swift */; };
+		ABDEB7E62CC45B4D00B56576 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB7E52CC45B4D00B56576 /* File.swift */; };
+		ABDEB7E82CC45F6300B56576 /* Workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB7E72CC45F6300B56576 /* Workouts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		ABDEB7D32CC44A8B00B56576 /* wpgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wpgUITests.swift; sourceTree = "<group>"; };
 		ABDEB7D42CC44A8B00B56576 /* wpgUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wpgUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ABDEB7E12CC4531700B56576 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		ABDEB7E52CC45B4D00B56576 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		ABDEB7E72CC45F6300B56576 /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				ABDEB7DC2CC452AE00B56576 /* HomeView */,
+				ABDEB7E52CC45B4D00B56576 /* File.swift */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -152,6 +157,7 @@
 		ABDEB7DB2CC44AD900B56576 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				ABDEB7E72CC45F6300B56576 /* Workouts.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -302,6 +308,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABDEB7CE2CC44A8400B56576 /* ContentView.swift in Sources */,
+				ABDEB7E82CC45F6300B56576 /* Workouts.swift in Sources */,
+				ABDEB7E62CC45B4D00B56576 /* File.swift in Sources */,
 				ABDEB7E22CC4531700B56576 /* HomePageView.swift in Sources */,
 				ABDEB7CF2CC44A8400B56576 /* wpgApp.swift in Sources */,
 			);
