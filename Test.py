@@ -1,6 +1,6 @@
 import requests
+import Keys
+import os
+import webbrowser
 
-
-
-response = requests.get("http://127.0.0.1:5000/what_is_a_good_name?")
-print(response.json()['responses:'])
+webbrowser.open('https://api.api-ninjas.com/v1/exercises?muscles=biceps/exercises?type=strength')
