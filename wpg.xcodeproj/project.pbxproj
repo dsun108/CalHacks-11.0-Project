@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB9C19B52CC4701000684ABD /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9C19B42CC4701000684ABD /* CalendarView.swift */; };
+		AB9C19B82CC4702800684ABD /* WorkoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9C19B72CC4702800684ABD /* WorkoutsView.swift */; };
+		AB9C19BB2CC4704300684ABD /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9C19BA2CC4704300684ABD /* MoreView.swift */; };
+		AB9C19BE2CC473BA00684ABD /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9C19BD2CC473BA00684ABD /* Network.swift */; };
 		ABDEB7CC2CC44A8400B56576 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDEB7C52CC44A8400B56576 /* Preview Assets.xcassets */; };
 		ABDEB7CD2CC44A8400B56576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDEB7C72CC44A8400B56576 /* Assets.xcassets */; };
-		ABDEB7CE2CC44A8400B56576 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB7C82CC44A8400B56576 /* ContentView.swift */; };
 		ABDEB7CF2CC44A8400B56576 /* wpgApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB7CA2CC44A8400B56576 /* wpgApp.swift */; };
 		ABDEB7D22CC44A8900B56576 /* wpgTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB7D02CC44A8900B56576 /* wpgTests.swift */; };
 		ABDEB7D62CC44A8B00B56576 /* wpgUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB7D32CC44A8B00B56576 /* wpgUITests.swift */; };
 		ABDEB7D72CC44A8B00B56576 /* wpgUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB7D42CC44A8B00B56576 /* wpgUITestsLaunchTests.swift */; };
 		ABDEB7E22CC4531700B56576 /* HomePageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB7E12CC4531700B56576 /* HomePageView.swift */; };
+		ABDEB7E82CC45F6300B56576 /* Workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDEB7E72CC45F6300B56576 /* Workouts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,19 +39,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB9C19B42CC4701000684ABD /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		AB9C19B72CC4702800684ABD /* WorkoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutsView.swift; sourceTree = "<group>"; };
+		AB9C19BA2CC4704300684ABD /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		AB9C19BD2CC473BA00684ABD /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		ABCC56152CC43FCA0073FDD3 /* wpg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wpg.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCC56262CC43FCB0073FDD3 /* wpgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wpgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCC56302CC43FCB0073FDD3 /* wpgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wpgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABDEB7C52CC44A8400B56576 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABDEB7C72CC44A8400B56576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ABDEB7C82CC44A8400B56576 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABDEB7C92CC44A8400B56576 /* wpg.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wpg.entitlements; sourceTree = "<group>"; };
 		ABDEB7CA2CC44A8400B56576 /* wpgApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wpgApp.swift; sourceTree = "<group>"; };
 		ABDEB7D02CC44A8900B56576 /* wpgTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wpgTests.swift; sourceTree = "<group>"; };
 		ABDEB7D32CC44A8B00B56576 /* wpgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wpgUITests.swift; sourceTree = "<group>"; };
 		ABDEB7D42CC44A8B00B56576 /* wpgUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wpgUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ABDEB7E12CC4531700B56576 /* HomePageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageView.swift; sourceTree = "<group>"; };
+		ABDEB7E72CC45F6300B56576 /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		AB9C19AF2CC46E9200684ABD /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ABCC56122CC43FCA0073FDD3 /* Frameworks */ = {
@@ -74,6 +90,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB9C19A72CC46E3A00684ABD /* Generate */ = {
+			isa = PBXGroup;
+			children = (
+				AB9C19C32CC4813500684ABD /* New Group */,
+				AB9C19AF2CC46E9200684ABD /* Views */,
+			);
+			path = Generate;
+			sourceTree = "<group>";
+		};
+		AB9C19AC2CC46E6700684ABD /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				AB9C19B22CC46FF700684ABD /* Views */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		AB9C19AD2CC46E7800684ABD /* Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				AB9C19B62CC4701400684ABD /* Views */,
+			);
+			path = Workouts;
+			sourceTree = "<group>";
+		};
+		AB9C19AE2CC46E8000684ABD /* More */ = {
+			isa = PBXGroup;
+			children = (
+				AB9C19B92CC4703600684ABD /* Views */,
+			);
+			path = More;
+			sourceTree = "<group>";
+		};
+		AB9C19B22CC46FF700684ABD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB9C19B42CC4701000684ABD /* CalendarView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB9C19B62CC4701400684ABD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB9C19B72CC4702800684ABD /* WorkoutsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB9C19B92CC4703600684ABD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB9C19BA2CC4704300684ABD /* MoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB9C19BC2CC473B000684ABD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AB9C19BD2CC473BA00684ABD /* Network.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AB9C19C32CC4813500684ABD /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		ABCC560C2CC43FCA0073FDD3 = {
 			isa = PBXGroup;
 			children = (
@@ -108,9 +196,9 @@
 				ABDEB7D82CC44ABC00B56576 /* App */,
 				ABDEB7DA2CC44ACF00B56576 /* Core */,
 				ABDEB7DB2CC44AD900B56576 /* Models */,
+				AB9C19BC2CC473B000684ABD /* Network */,
 				ABDEB7C62CC44A8400B56576 /* Preview Content */,
 				ABDEB7C72CC44A8400B56576 /* Assets.xcassets */,
-				ABDEB7C82CC44A8400B56576 /* ContentView.swift */,
 				ABDEB7C92CC44A8400B56576 /* wpg.entitlements */,
 				ABDEB7CA2CC44A8400B56576 /* wpgApp.swift */,
 			);
@@ -145,6 +233,10 @@
 			isa = PBXGroup;
 			children = (
 				ABDEB7DC2CC452AE00B56576 /* HomeView */,
+				AB9C19A72CC46E3A00684ABD /* Generate */,
+				AB9C19AC2CC46E6700684ABD /* Calendar */,
+				AB9C19AD2CC46E7800684ABD /* Workouts */,
+				AB9C19AE2CC46E8000684ABD /* More */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -152,6 +244,7 @@
 		ABDEB7DB2CC44AD900B56576 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				ABDEB7E72CC45F6300B56576 /* Workouts.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -178,6 +271,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AB9C19AF2CC46E9200684ABD /* Views */,
 			);
 			name = wpg;
 			packageProductDependencies = (
@@ -301,9 +397,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABDEB7CE2CC44A8400B56576 /* ContentView.swift in Sources */,
+				ABDEB7E82CC45F6300B56576 /* Workouts.swift in Sources */,
+				AB9C19B52CC4701000684ABD /* CalendarView.swift in Sources */,
 				ABDEB7E22CC4531700B56576 /* HomePageView.swift in Sources */,
 				ABDEB7CF2CC44A8400B56576 /* wpgApp.swift in Sources */,
+				AB9C19BE2CC473BA00684ABD /* Network.swift in Sources */,
+				AB9C19B82CC4702800684ABD /* WorkoutsView.swift in Sources */,
+				AB9C19BB2CC4704300684ABD /* MoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

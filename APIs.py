@@ -14,6 +14,7 @@ if True:
 
 class getPrompt(Resource):
     def get(self, query):
+        
         response  = model.generate_content(query)
         return {"prompt":query, "responses":response.text}
 
