@@ -1,4 +1,4 @@
-from flask import Flask, jsonify
+from flask import Flask, jsonify, request
 import os
 from flask_restful import Resource, Api
 import google.generativeai as genai
@@ -6,11 +6,13 @@ import Keys
 import requests
 app = Flask(__name__)
 api = Api(app)  
-genai.configure(api_key=os.environ['API_key'])
+genai.configure(api_key=os.environ['API_Key'])
 model = genai.GenerativeModel("gemini-1.5-flash")
-if True:
-    app.run(debug=True)
 
+@app.route("/userData",methods=["POST"])
+def getter():
+	print(request.data)
+	return {"lol":"lol"}
 
 class getPrompt(Resource):
     def get(self, query):
