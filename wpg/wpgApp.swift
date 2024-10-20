@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct wpgApp: App {
+    var network = Network()
     var body: some Scene {
         WindowGroup {
             HomePageView()
+                .environmentObject(network)
         }
     }
 }
